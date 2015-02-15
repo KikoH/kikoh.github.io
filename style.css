@@ -12,17 +12,7 @@ h2 {
 	padding: 20px;
 }
 
-#workcontainer h2 {
-	color: black;
-	width: 200px;
-	height: auto;
-	margin: auto;
-	background-color: rgba(255, 251, 242, 1);
-	opacity: 0.9;
-	border-radius: 100%;
-}
-
-#menu {
+nav {
 	position: fixed;
 	z-index: 88;
 	margin: 10% 0;
@@ -40,7 +30,7 @@ h2 {
 	position: fixed;
 	background: url("https://s3.amazonaws.com/kikoportfolio/background.jpg");
 	background-size: cover;
-	min-height: 100%;
+	height: 100%;
 	width: 100%;
 	z-index: -1;
 }
@@ -128,6 +118,16 @@ h2 {
 	width: 100%;
 	margin:  auto;
 	text-align: center;
+}
+
+#workcontainer h2 {
+	color: black;
+	width: 200px;
+	height: auto;
+	margin: auto;
+	background-color: rgba(255, 251, 242, 1);
+	opacity: 0.9;
+	border-radius: 100%;
 }
 
 .ch-grid {
@@ -303,7 +303,7 @@ h2 {
 #contactcontainer {
 	position: relative;
 	width: 100%;
-	height: 200px;
+	height: auto;
 	margin: 0 auto;
 	background-color: rgba(33, 33, 33, 0.86);
 	text-align: center;
@@ -320,8 +320,36 @@ h2 {
 
 @media screen and (max-width: 640px) {
 
+	nav {
+		height: 250px;
+		width: 100px;
+		margin: 2% 0;
+	}
+
+	#menu div {
+		margin-top: 15%;
+	}
+
 	#welcome {
 		opacity: 0.5;
+		height: 50%;
+	}
+
+	#container {
+		height: 50%;
+	}
+
+	#container > img {
+		width: 100px;
+		height: 100px;
+	}
+
+	#container p {
+		font-size: 13px;
+	}
+
+	#workcontainer {
+		background-color: #fcf6ee;
 	}
 
 	#welcomebutton img, #aboutmebutton img, #skillsbutton img, #workbutton img, #contactbutton img {

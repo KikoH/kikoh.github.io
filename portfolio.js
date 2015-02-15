@@ -2,6 +2,24 @@ $(document).on('ready page:load', function() {
 
     $(".hide").hide();
 
+    //MENU
+
+    $(document).scroll(function () {
+        if ($(this).scrollTop() < 60 ) {
+            $('#menu').fadeIn();
+        } else {
+            $('#menu').fadeOut();
+        }
+    });
+
+    $("nav").hover(function(){
+        $("#menu").fadeIn();
+    }, function() {
+        if ($(this).scrollTop() > 0) {
+            $("#menu").fadeOut();
+        }
+    });
+
 // Show image as on page load
 setInterval(function () {
 	$(".hide").show().animate({
