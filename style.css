@@ -33,7 +33,7 @@ h2 {
 #welcomebutton, #aboutmebutton, #skillsbutton, #workbutton, #contactbutton {
 	z-index: 88;
 	height: 20%;
-	width: 100%;
+	width: 50%;
 }
 
 #welcome {
@@ -92,7 +92,7 @@ h2 {
 	position: relative;
 	background-color: #fcf6ee;
 	width: 100%;
-	height: 760px;
+	height: auto;
 	line-height: 44px;
 	font-size: 20px;
 	text-align: center;
@@ -101,10 +101,10 @@ h2 {
 }
 
 #aboutmecontainer p {
-	position: absolute;
 	margin: auto 20%;
 	color: black;
 	font-family: courier;
+
 }
 
 #skillscontainer {
@@ -322,5 +322,10 @@ h2 {
 
 	#welcome {
 		opacity: 0.5;
+	}
+
+	#welcomebutton img, #aboutmebutton img, #skillsbutton img, #workbutton img, #contactbutton img {
+		width: 70px;
+		height: 70px;
 	}
 }
