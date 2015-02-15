@@ -319,7 +319,7 @@ nav {
 
 /*Reponsive design*/
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 760px) and (min-height: 640px) {
 	nav {
 		height: 250px;
 		width: 100px;
