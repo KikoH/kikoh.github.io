@@ -1,0 +1,112 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="portfolio.js"></script>
+	<script src="Chart.js"></script>
+	<title>Kiko Habib website</title>
+</head>
+<body>
+	<nav id="menu">
+		<div id="welcomebutton" style="background-color: black;"></div>
+		<div id="aboutmebutton" style="background-color: blue;"></div>
+		<div id="skillsbutton" style="background-color: red;"></div>
+		<div id="workbutton" style="background-color: yellow;" ></div>
+		<div id="contactbutton" style="background-color: green;" ></div>
+	</nav>
+
+	<div id="welcome"></div>
+
+	<div id="container">
+		<img class="hide" src="https://s3.amazonaws.com/kikoportfolio/kiko.jpg" alt="kiko">
+		<p class="hide"> Kiko Habib <br> { Full stack web developer } </p>
+	</div>
+
+	<!-- About Me -->
+
+	<div id="aboutmecontainer">
+		<h2>// About Me \\</h2>
+		<p>
+			<span style="color: blue">{background}:</span> <br>I'm Kiko. I used to be a semi pro soccer player. I have a bachelor degree in Business Management and video game design.<br><br>
+			<span style="color: green">{"interests"}:</span> <br>
+			Have always been interested in technology. New ones in particular. Love sports in general. <br><br>
+			<span style="color: red">{"hobbies"}:</span> <br>
+			I started to consier coding a hobby since I enjoy it so much. Usually I am if I am not playing soccer. Also enjoy Tennis and video games.
+		</p>
+	</div>
+
+	<!-- Skills -->
+
+	<div id="skillscontainer">
+		<h2>\\ My Skills //</h2>
+	<!--	<div id="skilltext">
+			<p id="red">Ruby</p>
+			<p style="background-color: gray">Html</p>
+			<p style="background-color: gray">CSS</p>
+			<p style="background-color: yellow">JAVASCRIPT</p>
+			<p style="background-color: green">GREEN</p>
+		</div> -->
+
+		<div id="chart" style="width:100%; height:400px;"></div>
+
+	</div>
+
+	<!-- Work -->
+
+	<div id="workcontainer">
+		<h2>// My Work \\</h2>
+		<ul class="ch-grid">
+			<li>
+				<div class="ch-item">
+					<div class="ch-info">
+						<h3>Matchup</h3>
+						<p>A soccer matching app where teams can look available games in any venue and match up with other teams. Developed using Rails. <a href="https://pure-taiga-8764.herokuapp.com/" target="_blank">Website</a></p>
+					</div>
+					<div class="ch-thumb ch-img-1"></div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item">
+					<div class="ch-info">
+						<h3>Tic-Tac-Toe</h3>
+						<p>Tic-Tac-Toe developed using Html/CSS, Javascript/Jquery<a href="https://github.com/KikoH/tic_tac_toe">Website</a></p>
+					</div>
+					<div class="ch-thumb ch-img-2"></div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item">
+					<div class="ch-info">
+						<h3>Fly</h3>
+						<p>A fun game I made for windows phone using XNA C# <a href="http://www.windowsphone.com/en-ca/store/app/fly/1342192a-b54c-4a62-8a1d-f36ca89fecf4" target="_blank">Website</a></p>
+					</div>
+					<div class="ch-thumb ch-img-3"></div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item">	
+					<div class="ch-info">
+						<h3>Kamazon</h3>
+						<p>An amazon clone where you can add products and write reviews <a href="http://drbl.in/eGjw">Website</a> <a href="http://drbl.in/eGjw">Jquery</a></p>
+					</div>
+					<div class="ch-thumb ch-img-4"></div>
+				</div>
+			</li>
+		</ul>
+		
+	</div>
+
+	<div id="contactcontainer">
+		<h2><span style="color: #FEFAEC;">\\ Contact Me //</span></h2>
+		<div id="contact">
+			<a href="https://twitter.com/kiikooo"><img src="https://s3.amazonaws.com/kikoportfolio/twitter13.png" alt="Twitter"></a>
+			<a href="https://github.com/KikoH"><img src="https://s3.amazonaws.com/kikoportfolio/github19.png" alt="Github"></a>
+			<a href="http://ca.linkedin.com/in/kikohabib/en"><img src="https://s3.amazonaws.com/kikoportfolio/linkedin8.png" alt="LinkedIn"></a>
+			<a href="mailto:mmhabib11@gmail.com?" target="_top"><img src="https://s3.amazonaws.com/kikoportfolio/black87.png" alt="LinkedIn"></a>
+		</div>
+	</div>
+</body>
+</html>
