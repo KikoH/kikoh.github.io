@@ -102,7 +102,7 @@ function createChart() {
         // Make monochrome colors and set them as default for all pies
         Highcharts.getOptions().plotOptions.pie.colors = (function () {
         	var colors = [],
-        	base = Highcharts.getOptions().colors[1],
+        	base = Highcharts.getOptions().colors[2],
         	i;
 
         	for (i = 0; i < 10; i += 1) {
