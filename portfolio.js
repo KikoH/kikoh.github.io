@@ -2,7 +2,7 @@ $(document).on('ready page:load', function() {
 
     $(".hide").hide();
 
-    //MENU
+    //Menu hide/show on scroll
 
     $(document).scroll(function () {
         if ($(this).scrollTop() < 60 ) {
@@ -12,6 +12,8 @@ $(document).on('ready page:load', function() {
         }
     });
 
+    //Menu hide/show on hover
+
     $("nav").hover(function(){
         $("#menu").fadeIn();
     }, function() {
@@ -20,7 +22,7 @@ $(document).on('ready page:load', function() {
         }
     });
 
-// Show image as on page load
+// Show image on page load
 setInterval(function () {
 	$(".hide").show().animate({
 		opacity: 1
@@ -28,14 +30,14 @@ setInterval(function () {
     // $("#menu").show().fadeIn();
 }, 2000);
 
-// A counter to count how many seconds i have been coding
+// A counter counting seconds spent coding
 
-var start = new Date(2015, 1, 2);
+// var start = new Date(2015, 1, 2);
 
-setInterval(function () {
-	var seconds = Math.floor((new Date() - start) * 1 / 1000);
-	$("#coding").html("Seconds coding: " + "<br>" + seconds);
-}, 1000);
+// setInterval(function () {
+// 	var seconds = Math.floor((new Date() - start) * 1 / 1000);
+// 	$("#coding").html("Seconds coding: " + "<br>" + seconds);
+// }, 1000);
 
 
 //Menu Scrolling to div
@@ -166,4 +168,15 @@ function createChart() {
     });
 };
 });
+
+//Google Analytics
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59835339-1', 'auto');
+  ga('send', 'pageview');
+
 });
