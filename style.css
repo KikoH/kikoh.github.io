@@ -189,7 +189,7 @@ nav {
 	box-shadow: 0 0 1px rgba(255,255,255,0.9);
 }
 
-.ch-img-1 { 
+.ch-img-1 {
 	background-image: url("https://s3.amazonaws.com/kikoportfolio/matchup.png");
 	z-index: 12;
 	width: 100%;
@@ -200,7 +200,7 @@ nav {
 
 }
 
-.ch-img-2 { 
+.ch-img-2 {
 	background-image: url("https://s3.amazonaws.com/kikoportfolio/tictactoe.png");
 	z-index: 11;
 	width: 100%;
@@ -210,7 +210,7 @@ nav {
 	background-position: center;
 }
 
-.ch-img-3 { 
+.ch-img-3 {
 	background-image: url("https://s3.amazonaws.com/kikoportfolio/fly.png");
 	z-index: 10;
 	width: 100%;
@@ -220,7 +220,7 @@ nav {
 	background-position: center;
 }
 
-.ch-img-4 { 
+.ch-img-4 {
 	background-image: url("https://s3.amazonaws.com/kikoportfolio/Kamazon.png");
 	z-index: 10;
 	width: 100%;
@@ -228,6 +228,28 @@ nav {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.ch-img-5 {
+	background-image: url("https://s3.amazonaws.com/kikoportfolio/workinprogress.png");
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+}
+
+.ch-img-6 {
+	background-image: url("https://s3.amazonaws.com/kikoportfolio/workinprogress2.png");
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
 }
 
 .ch-info {
