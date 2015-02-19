@@ -128,7 +128,7 @@ function createChart() {
     		enabled: false
     	},
     	title: {
-    		text: 'Programming languages'
+    		text: ''
     	},
     	tooltip: {
     		pointFormat: ''
