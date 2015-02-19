@@ -107,12 +107,11 @@ nav {
 	box-shadow: 10px 10px 10px black;
 }
 
-#myChart {
-	position: absolute;
-	width: 400px;
-	height: 100%;
-	margin-left: 500px;
-}
+/*#chartcontainer {
+	position: relative;
+	height: 400px;
+	width: 100%;
+}*/
 
 #workcontainer {
 	position: relative;

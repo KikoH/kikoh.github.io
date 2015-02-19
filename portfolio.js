@@ -101,19 +101,16 @@ didScroll = false,
 function createChart() {
         $window.off('scroll'); //remove listener that will create chart, this ensures the chart will be created only once
 
-        // Make monochrome colors and set them as default for all pies
-        Highcharts.getOptions().plotOptions.pie.colors = (function () {
-        	var colors = [],
-        	base = Highcharts.getOptions().colors[2],
-        	i;
-
-        	for (i = 0; i < 10; i += 1) {
-            // Start out with a darkened base color (negative brighten), and end
-            // up with a much brighter color
-            colors.push(Highcharts.Color(base).brighten((i - 3) / 7).get());
-        }
-        return colors;
-    }());
+            // Radialize the colors
+    Highcharts.getOptions().colors = Highcharts.map(Highcharts.getOptions().colors, function (color) {
+        return {
+            radialGradient: { cx: 0.5, cy: 0.3, r: 0.7 },
+            stops: [
+                [0, color],
+                [1, Highcharts.Color(color).brighten(-0.3).get('rgb')] // darken
+            ]
+        };
+    });
 
     // Build the chart
     $('#chart').highcharts({
