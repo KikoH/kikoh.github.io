@@ -251,6 +251,17 @@ nav {
 	background-color: white;
 }
 
+.ch-img-7 {
+	background-image: url("https://s3.amazonaws.com/kikoportfolio/workinprogress.png");
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+}
+
 .ch-info {
 	position: absolute;
 	width: inherit;
