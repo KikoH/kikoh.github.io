@@ -296,6 +296,28 @@ nav {
 	background-color: white;
 }
 
+.ch-img-10 {
+	background-image: url("https://s3.amazonaws.com/kikoportfolio/estimator.jpg");
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+}
+
+.ch-img-11 {
+	background-image: url("https://s3.amazonaws.com/kikoportfolio/workinprogress2.png");
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+}
+
 .ch-info {
 	position: absolute;
 	width: inherit;
