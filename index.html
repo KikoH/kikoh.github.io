@@ -4,170 +4,26 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-	<script src="http://code.highcharts.com/highcharts.js"></script>
-	<script src="portfolio.js"></script>
-	<script src="Chart.js"></script>
 	<title>Kiko Habib website</title>
 </head>
 <body>
-	<nav>
-		<div id="menu">
-			<div id="welcomebutton"> <img src="https://s3.amazonaws.com/kikoportfolio/posthome.png" alt="homemenu"> </div>
-			<div id="aboutmebutton"> <img src="https://s3.amazonaws.com/kikoportfolio/postabout.png" alt="aboutmenu"> </div>
-			<div id="skillsbutton"> <img src="https://s3.amazonaws.com/kikoportfolio/postskills.png" alt="skillsmenu"> </div>
-			<div id="workbutton"> <img src="https://s3.amazonaws.com/kikoportfolio/postwork.png" alt="workmenu"> </div>
-			<div id="contactbutton"> <img src="https://s3.amazonaws.com/kikoportfolio/postcontact.png" alt="contactmenu"> </div>
+
+	<div class="container">
+		<div id="content">
+			<p>
+				Coming soon...
+			</p>
+
+			<div id="contactcontainer">
+				<div id="contact">
+					<a href="https://twitter.com/kiikooo"> <img src="https://s3.amazonaws.com/kikoportfolio/twitter13.png" alt="Twitter"></a>
+					<a href="https://github.com/KikoH"> <img src="https://s3.amazonaws.com/kikoportfolio/github19.png" alt="Github"></a>
+					<a href="http://ca.linkedin.com/in/kikohabib/en"> <img src="https://s3.amazonaws.com/kikoportfolio/linkedin8.png" alt="LinkedIn"></a>
+					<a href="mailto:mmhabib11@gmail.com?" target="_top"> <img src="https://s3.amazonaws.com/kikoportfolio/black87.png" alt="LinkedIn"></a>
+				</div>
+			</div>
 		</div>
-	</nav>
-
-	<div id="welcome"></div>
-
-	<div id="container">
-		<img class="hide" src="https://s3.amazonaws.com/kikoportfolio/kiko2.jpeg" alt="kiko">
-		<p class="hide"> Kiko Habib <br> { Full stack web developer } </p>
-	</div>
-
-	<!-- About Me -->
-
-	<div id="aboutmecontainer">
-		<h2>// About Me \\</h2>
-		<p>
-			<span style="color: blue">{background}:</span> <br>Hello. I'm Kiko. I used to be a semi pro soccer player. I have a bachelor degree in Business Management and video game design. I am a recent graduate from Bitmaker labs.
-			I have a passion for creating awesome applications that serves a purpose and solves problems<br><br>
-			<span style="color: green">{"interests"}:</span> <br>
-			I am a geek when it comes to technology. I am always updated with the newest tech and I love sports. <br><br>
-			<span style="color: red">{"hobbies"}:</span> <br>
-			Coding has always been what I love to do in my spare time. If I am not, then I usually am hanging out with my wife, playing soccer or video games and occasionally tennis.
-		</p>
-	</div>
-
-	<!-- Skills -->
-
-	<div id="skillscontainer">
-		<h2>\\ My Skills //</h2>
-		<!-- <div id="chartcontainer"> -->
-		<div id="chart"></div>
-		<!-- </div> -->
-	</div>
-
-	<!-- Work -->
-
-	<div id="workcontainer">
-		<h2>// Side Projects \\</h2>
-		<ul class="ch-grid">
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Matchup</h3>
-						<p>A soccer matching app where teams can look available games in any venue and match up with other teams. Developed using Rails. <a href="https://sportsmatchup.herokuapp.com/" target="_blank">Website</a></p>
-					</div>
-					<div class="ch-thumb ch-img-1"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Tic-Tac-Toe</h3>
-						<p>Tic-Tac-Toe developed using Html/CSS, Javascript/Jquery<a href="https://github.com/KikoH/tic_tac_toe">Github</a></p>
-					</div>
-					<div class="ch-thumb ch-img-2"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Fly</h3>
-						<p>A fun game I made for windows phone using XNA C# <a href="http://www.windowsphone.com/en-ca/store/app/fly/1342192a-b54c-4a62-8a1d-f36ca89fecf4" target="_blank">Website</a></p>
-					</div>
-					<div class="ch-thumb ch-img-3"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Forest</h3>
-						<p>An app where you can add/find products and write reviews. Developed using Rails <a href="https://github.com/KikoH/forest">Github</a></p>
-					</div>
-					<div class="ch-thumb ch-img-4"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Seat-Yourself</h3>
-						<p>An app to find restaurants and book reservations. Developed using Rails <a href="https://github.com/KikoH/seat_yourself">Github</a></p>
-					</div>
-					<div class="ch-thumb ch-img-5"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Crowdfunder</h3>
-						<p>An app where you can support new ideas to help bring them to life. Developed using Rails <a href="https://github.com/KikoH/crowdfunder">Github</a></p>
-					</div>
-					<div class="ch-thumb ch-img-6"></div>
-				</div>
-			</li>
-			<h2>// Freelance Work \\</h2>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Gallery</h3>
-						<p>An online Art Gallery portfolio with a magazine like interface. Developed using Rails <a href="http://www.saragazzaz.com">Website</a></p>
-					</div>
-					<div class="ch-thumb ch-img-7"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Parking Finder</h3>
-						<p>A simple parking finder next to any location you search for. Developed using JS/HTML<a href="http://kikohabib.io/parkingfinder">Website</a></p>
-					</div>
-					<div class="ch-thumb ch-img-8"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Youtilicious</h3>
-						<p>A Cake/Bakery shop. Developed using Rails (BETA)<a href="http://www.youtilicious.com" target="_blank">Website</a></p>
-					</div>
-					<div class="ch-thumb ch-img-9"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>Estimator</h3>
-						<p>A price/time estimator app for an agency. Developed using Rails (BETA)<a href="https://floating-sierra-35485.herokuapp.com/" target="_blank">Website</a></p>
-					</div>
-					<div class="ch-thumb ch-img-10"></div>
-				</div>
-			</li>
-			<li>
-				<div class="ch-item">
-					<div class="ch-info">
-						<h3>TBD</h3>
-						<p>An online soccer shop. Developing using Rails/React<!-- <a href=""></a> --></p>
-					</div>
-					<div class="ch-thumb ch-img-11"></div>
-				</div>
-			</li>
-		</ul>
-	</div>
-
-	<div id="contactcontainer">
-		<h2><span style="color: #FEFAEC;">\\ Contact Me //</span></h2>
-		<div id="contact">
-			<a href="https://twitter.com/kiikooo"> <img src="https://s3.amazonaws.com/kikoportfolio/twitter13.png" alt="Twitter"></a>
-			<a href="https://github.com/KikoH"> <img src="https://s3.amazonaws.com/kikoportfolio/github19.png" alt="Github"></a>
-			<a href="https://app.box.com/s/lmr1k68kgmf1jcpgqntib2kzikta7f4f" target="_blank"> <img src="https://s3.amazonaws.com/kikoportfolio/professional5.png" alt="Resume"> </a>
-			<a href="http://ca.linkedin.com/in/kikohabib/en"> <img src="https://s3.amazonaws.com/kikoportfolio/linkedin8.png" alt="LinkedIn"></a>
-			<a href="mailto:mmhabib11@gmail.com?" target="_top"> <img src="https://s3.amazonaws.com/kikoportfolio/black87.png" alt="LinkedIn"></a>
-		</div>
-	</div>
+	</div>s
 
 	<!-- Google analytics -->
 
