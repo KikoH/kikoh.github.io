@@ -25,3 +25,11 @@ body {
 img {
 	width: 10%;
 }
+
+/*Reponsive design*/
+
+@media screen and (max-width: 1024px), screen and (max-height: 640px) {
+	#content {
+		font-size: 35px;
+	}
+}
