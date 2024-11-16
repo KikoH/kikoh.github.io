@@ -34,10 +34,18 @@ text-align: center;
 	display: inline-block;
 }
 
+.logo-mobile {
+		display: none;
+	}
+
 /*Reponsive design*/
 
 @media screen and (max-width: 779	px) {
-	#content {
-		
+	.logo {
+		display: none;
+	}
+
+	.logo-mobile {
+		display: inline-block;
 	}
 }
