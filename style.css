@@ -11,7 +11,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
-
+/* 
 #content {
 	position: absolute;
     top: 0;
@@ -23,16 +23,21 @@ body {
     height: 82px;
     font-size: 35px;
 	color: white;
+} */
+
+.logo-container {
+text-align: center;
 }
 
-img {
+.logo {
 	width: 100%;
+	display: inline-block;
 }
 
 /*Reponsive design*/
 
 @media screen and (max-width: 779	px) {
 	#content {
-		font-size: 35px;
+		
 	}
 }
