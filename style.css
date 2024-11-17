@@ -40,7 +40,7 @@ text-align: center;
 
 /*Reponsive design*/
 
-@media all and (min-width:960px) and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   .logo {
 		display: none;
 	}
